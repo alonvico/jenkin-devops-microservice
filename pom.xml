@@ -148,7 +148,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<name>alonvico/mmv3-${project.artifactId}:${project.version}</name>
+						<name>alonvico/mmv4-${project.artifactId}:${project.version}</name>
 					</image>
 					<pullPolicy>IF_NOT_PRESENT</pullPolicy>
 				</configuration>
