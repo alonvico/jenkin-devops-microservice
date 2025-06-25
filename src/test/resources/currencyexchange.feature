@@ -7,5 +7,5 @@ Feature: Currency Exchange Rate
 
     Examples:
       |	fromcurrency	|	tocurrency	|	output		|
-      |	USD	|	MXN	    |	75	|
-      |	MXN	|	USD	    |	65	|
+      |	USD	|	MXN	    |	21	|
+      |	MXN	|	USD	    |	0.5	|
