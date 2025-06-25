@@ -26,6 +26,11 @@ pipeline {
                 sh 'mvn clean compile'
             }
         }
+        stage ('Run it') {
+            steps {
+                sh 'mvn spring-boot:run'
+            }
+        }
         stage('Test') {
              steps {
                  sh 'mvn test'
